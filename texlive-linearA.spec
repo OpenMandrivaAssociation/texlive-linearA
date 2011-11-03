@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /fonts/archaic/linearA
+# catalog-date 2006-12-01 16:33:32 +0100
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-linearA
 Version:	20061201
 Release:	1
@@ -54,6 +60,7 @@ will be deciphered.
 #- source
 %doc %{_texmfdistdir}/source/fonts/linearA/linearA.dtx
 %doc %{_texmfdistdir}/source/fonts/linearA/linearA.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -64,3 +71,5 @@ will be deciphered.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
