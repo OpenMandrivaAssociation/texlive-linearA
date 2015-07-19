@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-linearA
 Version:	20061201
-Release:	9
+Release:	10
 Summary:	Linear A script fonts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/archaic/linearA
