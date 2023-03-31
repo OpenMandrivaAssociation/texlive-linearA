@@ -1,6 +1,6 @@
 Name:		texlive-linearA
 Version:	63169
-Release:	1
+Release:	2
 Summary:	Linear A script fonts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/archaic/linearA
