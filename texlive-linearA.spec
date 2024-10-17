@@ -3,7 +3,7 @@ Version:	63169
 Release:	2
 Summary:	Linear A script fonts
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/fonts/archaic/linearA
+URL:		https://www.ctan.org/tex-archive/fonts/archaic/linearA
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lineara.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lineara.doc.r%{version}.tar.xz
